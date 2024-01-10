@@ -1,0 +1,49 @@
+#img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    
+}
+
+#Titulo{
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+   
+}
+#datos{
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    height: 330px;
+}
+    
+#formu{
+    width: 350px;
+    height: 625px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(52, 28, 28);
+
+}
+#datos1{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; /* Alinea los elementos en la parte inferior */
+    flex: 1;
+    
+}
